@@ -5,10 +5,11 @@ import Introduce from './Introduce';
 import Hobby from './Hobby';
 import Challenge from './Challenge';
 import Footer from './Footer';
+import './style.css'
 
 class App extends React.Component{
   render(){
-    
+
     return(
       <div>
         <Header />
@@ -18,7 +19,6 @@ class App extends React.Component{
         <Challenge />
         <Footer />
       </div>
-      
     )
   }
 }

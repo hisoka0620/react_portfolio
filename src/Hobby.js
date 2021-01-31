@@ -1,4 +1,6 @@
 import React from 'react';
+import pcGame from './img/PCgame.png'
+import jujutsukaisen from './img/jujutsukaisen.jpg'
 
 class Hobby extends React.Component{
     constructor(props){
@@ -81,8 +83,8 @@ class Hobby extends React.Component{
                 <div className="hobby-sub-wrapper">
                     <div className="game-image-wrapper">
                         <div className="game-image-part">
-                            <img className="game-image" src="./img/PCgame.png" />
-                            <p>PCゲーム</p>    
+                            <img className="game-image" src={pcGame} />
+                            <p>PCゲーム</p>
                             <span>＊ほどほどに..</span>
                         </div>
                         <button className="hobby-common-btn" onClick = {() => {this.handleClickOpen()}}>もっと詳しく</button>
@@ -90,15 +92,15 @@ class Hobby extends React.Component{
                     </div>
                     <div className="anime-image-wrapper">
                         <div className="anime-image-part">
-                            <img className="anime-image" src="./img/jujutsukaisen.jpg" />
+                            <img className="anime-image" src={jujutsukaisen} />
                             <p>アニメ鑑賞</p>
                         </div>
                         <button className="hobby-common-btn" onClick = {() => {this.handleClickOpen2()}}>もっと詳しく</button>
                         {modal2}
                     </div>
                 </div>
-                
-            </div>      
+
+            </div>
         </div>
     )
   }

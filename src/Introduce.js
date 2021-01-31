@@ -1,42 +1,50 @@
 import React from 'react';
 import Contents from './Contents';
+import html_original_wordmark_logo from './img/html_original_wordmark_logo_icon_146478.png'
+import css_original_wordmark_logo from './img/css_original_wordmark_logo_icon_146576.png'
+import javascript_original_logo from './img/javascript_original_logo_icon_146455.png'
+import jquery_original_wordmark_logo from './img/jquery_original_wordmark_logo_icon_146447.png'
+import mysql_original_wordmark_logo from './img/mysql_original_wordmark_logo_icon_146417.png'
+import nodejs_original_wordmark_logo from './img/nodejs_original_wordmark_logo_icon_146412.png'
+import react_original_wordmark_logo from './img/react_original_wordmark_logo_icon_146375.png'
+import github_original_wordmark_logo from './img/github_original_wordmark_logo_icon_146506.png'
 
 class Introduce extends React.Component{
     render(){
         const languages = [
             {
                 // HTML
-                image: './img/html_original_wordmark_logo_icon_146478.png'
+                image: html_original_wordmark_logo
             },
             {
                 // CSS
-                image: './img/css_original_wordmark_logo_icon_146576.png'
+                image: css_original_wordmark_logo
             },
             {
                 // JavaScript
-                image: './img/javascript_original_logo_icon_146455.png'
+                image: javascript_original_logo
             },
             {
                 // jQuery
-                image: './img/jquery_original_wordmark_logo_icon_146447.png'
+                image: jquery_original_wordmark_logo
             },
             {
                 // mySQL
-                image: './img/mysql_original_wordmark_logo_icon_146417.png'
+                image: mysql_original_wordmark_logo
             },
             {
                 // nodejs
-                image: './img/nodejs_original_wordmark_logo_icon_146412.png'
+                image: nodejs_original_wordmark_logo
             },
             {
                 // React
-                image: './img/react_original_wordmark_logo_icon_146375.png'
+                image: react_original_wordmark_logo
             },
             {
                 // GitHub
-                image: './img/github_original_wordmark_logo_icon_146506.png'
+                image: github_original_wordmark_logo
             },
-        ];   
+        ];
         return(
             <div className="introduce-wrapper">
                 <div className="container">
@@ -51,18 +59,18 @@ class Introduce extends React.Component{
                         <div className="languages-wrapper">
                             {languages.map((item) => {
                                 return(
-                                    <Contents 
+                                    <Contents
                                         image = {item.image}
                                     />
-                                )   
+                                )
                             })}
                         </div>
                     </div>
-                
+
                 </div>
             </div>
         )
     }
 }
 
-export default Introduce; 
+export default Introduce;
