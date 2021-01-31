@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Contents extends React.Component{
+class Contents extends React.Component {
     render(){
         return(
             <div className="language-part">
