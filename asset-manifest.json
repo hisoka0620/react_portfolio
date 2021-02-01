@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.13c423ae.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.e0bdf277.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.e0bdf277.chunk.js.map",
+    "main.css": "/react_portfolio/static/css/main.806d67f9.chunk.css",
+    "main.js": "/react_portfolio/static/js/main.28fe886f.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.28fe886f.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.9708a8f9.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.9708a8f9.js.map",
     "static/js/2.0cb40182.chunk.js": "/react_portfolio/static/js/2.0cb40182.chunk.js",
     "static/js/2.0cb40182.chunk.js.map": "/react_portfolio/static/js/2.0cb40182.chunk.js.map",
     "index.html": "/react_portfolio/index.html",
-    "static/css/main.13c423ae.chunk.css.map": "/react_portfolio/static/css/main.13c423ae.chunk.css.map",
+    "static/css/main.806d67f9.chunk.css.map": "/react_portfolio/static/css/main.806d67f9.chunk.css.map",
     "static/js/2.0cb40182.chunk.js.LICENSE.txt": "/react_portfolio/static/js/2.0cb40182.chunk.js.LICENSE.txt",
     "static/media/PCgame.0d44ebb2.png": "/react_portfolio/static/media/PCgame.0d44ebb2.png",
     "static/media/css_original_wordmark_logo_icon_146576.09128c70.png": "/react_portfolio/static/media/css_original_wordmark_logo_icon_146576.09128c70.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.9708a8f9.js",
     "static/js/2.0cb40182.chunk.js",
-    "static/css/main.13c423ae.chunk.css",
-    "static/js/main.e0bdf277.chunk.js"
+    "static/css/main.806d67f9.chunk.css",
+    "static/js/main.28fe886f.chunk.js"
   ]
 }
